@@ -1,0 +1,33 @@
+<!-- @dsCard group="Colors" viewport="700x150" name="Accent & status" subtitle="Cyan telemetry accent + semantic states" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; background: var(--bg-page); padding: 20px; }
+  .row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+  .sw { border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-subtle); }
+  .chip { height: 56px; display:flex; align-items:flex-end; padding:7px; }
+  .tag { font-family: var(--font-mono); font-size: 10px; font-weight:600; padding:2px 6px; border-radius: var(--radius-xs); background: rgba(255,255,255,.85); color: var(--ink); }
+  .meta { padding: 7px 9px; background: var(--surface-card); }
+  .name { font-family: var(--font-mono); font-size: 11px; color: var(--text-strong); font-weight: 600; }
+  .hex { font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); text-transform: uppercase; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw"><div class="chip" style="background:var(--cyan-500)"></div><div class="meta"><div class="name">accent</div><div class="hex">2BC4E0</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--cyan-400)"></div><div class="meta"><div class="name">accent-400</div><div class="hex">57D6EE</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--success)"></div><div class="meta"><div class="name">success</div><div class="hex">2FB67C</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--warning)"></div><div class="meta"><div class="name">warning</div><div class="hex">E29A22</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--danger)"></div><div class="meta"><div class="name">danger</div><div class="hex">E5484D</div></div></div>
+    <div class="sw" style="display:flex; flex-direction:column;">
+      <div class="chip" style="background:var(--success-bg); flex:1"></div>
+      <div class="chip" style="background:var(--warning-bg); flex:1"></div>
+      <div class="chip" style="background:var(--danger-bg); flex:1"></div>
+      <div class="meta"><div class="name">soft bg</div></div>
+    </div>
+  </div>
+</body>
+</html>

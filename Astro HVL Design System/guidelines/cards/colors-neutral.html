@@ -1,0 +1,29 @@
+<!-- @dsCard group="Colors" viewport="700x150" name="Neutrals" subtitle="Cool slate ramp — text, borders, sunken fills on light" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; background: var(--bg-page); padding: 20px; }
+  .row { display: grid; grid-template-columns: repeat(8, 1fr); gap: 8px; }
+  .sw { border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-subtle); }
+  .chip { height: 56px; }
+  .meta { padding: 7px 8px; background: var(--surface-card); }
+  .name { font-family: var(--font-mono); font-size: 10px; color: var(--text-strong); font-weight: 600; }
+  .hex { font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); text-transform: uppercase; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw"><div class="chip" style="background:var(--white)"></div><div class="meta"><div class="name">white</div><div class="hex">FFFFFF</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--paper)"></div><div class="meta"><div class="name">paper</div><div class="hex">F4F7FB</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--mist)"></div><div class="meta"><div class="name">mist</div><div class="hex">E7EEF6</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--cloud)"></div><div class="meta"><div class="name">cloud</div><div class="hex">D4DFEC</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--slate-400)"></div><div class="meta"><div class="name">400</div><div class="hex">8194A9</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--slate-500)"></div><div class="meta"><div class="name">500</div><div class="hex">5E7389</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--slate-600)"></div><div class="meta"><div class="name">600</div><div class="hex">44586E</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--ink)"></div><div class="meta"><div class="name">ink</div><div class="hex">0A1626</div></div></div>
+  </div>
+</body>
+</html>

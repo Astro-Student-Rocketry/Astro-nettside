@@ -1,0 +1,35 @@
+<!-- @dsCard group="Components" viewport="700x250" name="Forms — Input" subtitle="Label · hint · prefix · error · disabled" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin:0; background:var(--bg-page); padding:24px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:18px 22px; max-width:620px; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+  const { Input } = window.AstroHVLDesignSystem_1d7919;
+  function Demo(){
+    return (
+      <div className="grid">
+        <Input label="Full name" placeholder="Ada Lovelace" defaultValue="Ada Lovelace" required />
+        <Input label="Email" type="email" prefix="@" placeholder="you@hvl.no" hint="Team updates only." />
+        <Input label="Study programme" placeholder="e.g. Mechanical Eng." />
+        <Input label="Student ID" defaultValue="HVL-0042" error="That ID isn't registered." />
+        <Input label="Locked" defaultValue="Read only" disabled />
+        <Input label="Apogee target" suffix="km" placeholder="3.0" />
+      </div>
+    );
+  }
+  ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+</script>
+</body>
+</html>

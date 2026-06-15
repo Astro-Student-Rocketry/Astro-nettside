@@ -1,0 +1,83 @@
+<!-- @dsCard group="Website" viewport="1440x900" name="Marketing site — Home" subtitle="Full Astro HVL landing page: hero, mission, projects, team, sponsors, join" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Astro HVL — Bergens høyeste punkt</title>
+<link rel="icon" href="../../assets/favicon.png">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg-page); }
+  #root { min-height: 100vh; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="../../_ds_bundle.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" src="i18n.jsx"></script>
+<script type="text/babel" src="icons.jsx"></script>
+<script type="text/babel" src="Header.jsx"></script>
+<script type="text/babel" src="Hero.jsx"></script>
+<script type="text/babel" src="Mission.jsx"></script>
+<script type="text/babel" src="Projects.jsx"></script>
+<script type="text/babel" src="Team.jsx"></script>
+<script type="text/babel" src="Sponsors.jsx"></script>
+<script type="text/babel" src="JoinFooter.jsx"></script>
+<script type="text/babel">
+  const { Header, Hero, Mission, Projects, Team, Sponsors, Join, Footer, JoinFooterStyle } = window;
+
+  function Site() {
+    const [page, setPage] = React.useState('home');
+    const [lang, setLang] = React.useState(() => {
+      try { return localStorage.getItem('ahvl_lang') || 'no'; } catch (e) { return 'no'; }
+    });
+    const t = window.AHVL_I18N[lang];
+
+    React.useEffect(() => {
+      document.documentElement.lang = lang;
+      try { localStorage.setItem('ahvl_lang', lang); } catch (e) {}
+    }, [lang]);
+
+    const nav = (id) => {
+      if (id === 'join') {
+        setPage('home');
+        requestAnimationFrame(() => {
+          const el = document.getElementById('join');
+          if (el) el.scrollIntoView ? window.scrollTo({ top: el.offsetTop - 60, behavior: 'smooth' }) : null;
+        });
+        return;
+      }
+      setPage(id);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    return (
+      <React.Fragment>
+        <JoinFooterStyle />
+        <Header current={page} onNav={nav} t={t} lang={lang} onLang={setLang} />
+        {page === 'home' && (
+          <main>
+            <Hero onNav={nav} t={t} />
+            <Mission t={t} />
+            <Projects onNav={nav} t={t} />
+            <div id="join"><Join t={t} /></div>
+          </main>
+        )}
+        {page === 'projects' && <main><Projects onNav={nav} t={t} /><div id="join"><Join t={t} /></div></main>}
+        {page === 'team' && <main><Team t={t} /><div id="join"><Join t={t} /></div></main>}
+        {page === 'sponsors' && <main><Sponsors onNav={nav} t={t} /><div id="join"><Join t={t} /></div></main>}
+        <Footer onNav={nav} t={t} />
+      </React.Fragment>
+    );
+  }
+
+  ReactDOM.createRoot(document.getElementById('root')).render(<Site />);
+</script>
+</body>
+</html>

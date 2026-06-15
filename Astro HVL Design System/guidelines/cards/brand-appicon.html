@@ -1,0 +1,30 @@
+<!-- @dsCard group="Brand" viewport="700x180" name="App icon & wordmark" subtitle="Square app icon + standalone wordmark" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; background: var(--bg-page); padding: 24px 28px; }
+  .row { display:flex; align-items:center; gap: 32px; }
+  .ico { width: 96px; height: 96px; border-radius: 22px; box-shadow: var(--shadow-md); }
+  .mark { display:flex; flex-direction:column; gap:10px; }
+  .mark img { height: 38px; }
+  .n { font-family:var(--font-mono); font-size:10px; color:var(--text-muted); letter-spacing:.1em; text-transform:uppercase; }
+  .div { width:1px; height:96px; background:var(--border-subtle); }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div style="display:flex; flex-direction:column; gap:10px; align-items:center;">
+      <img class="ico" src="../../assets/favicon.png" alt="App icon">
+      <span class="n">App icon</span>
+    </div>
+    <div class="div"></div>
+    <div class="mark">
+      <img src="../../assets/wordmark-astro-navy.png" alt="astro wordmark">
+      <span class="n">Wordmark · standalone</span>
+    </div>
+  </div>
+</body>
+</html>

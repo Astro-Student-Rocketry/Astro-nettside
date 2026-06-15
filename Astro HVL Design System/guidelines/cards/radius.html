@@ -1,0 +1,25 @@
+<!-- @dsCard group="Spacing" viewport="700x150" name="Radius" subtitle="Tight, engineered corners — 3 to 18px + pill" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; background: var(--bg-page); padding: 22px 28px; }
+  .row { display:flex; gap:20px; align-items:flex-end; }
+  .item { display:flex; flex-direction:column; gap:8px; align-items:center; }
+  .box { width: 72px; height: 56px; background: var(--surface-card); border: 1.5px solid var(--brand); border-bottom-width:0; border-right-width:0; }
+  .n { font-family: var(--font-mono); font-size:10px; color:var(--text-muted); }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="item"><div class="box" style="border-top-left-radius:var(--radius-xs)"></div><span class="n">xs · 3</span></div>
+    <div class="item"><div class="box" style="border-top-left-radius:var(--radius-sm)"></div><span class="n">sm · 5</span></div>
+    <div class="item"><div class="box" style="border-top-left-radius:var(--radius-md)"></div><span class="n">md · 8</span></div>
+    <div class="item"><div class="box" style="border-top-left-radius:var(--radius-lg)"></div><span class="n">lg · 12</span></div>
+    <div class="item"><div class="box" style="border-top-left-radius:var(--radius-xl)"></div><span class="n">xl · 18</span></div>
+    <div class="item"><div class="box" style="border-radius:var(--radius-pill); width:56px"></div><span class="n">pill</span></div>
+  </div>
+</body>
+</html>

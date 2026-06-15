@@ -1,0 +1,28 @@
+<!-- @dsCard group="Brand" viewport="700x220" name="Blueprint motif" subtitle="Navy + grid + telemetry eyebrow — the signature backdrop" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; }
+  .scene { height: 220px; background: var(--navy-900); position: relative; overflow: hidden; display:flex; flex-direction:column; justify-content:flex-end; padding: 26px 30px; }
+  .glow { position:absolute; top:-120px; right:-80px; width: 360px; height: 360px; border-radius:50%;
+          background: radial-gradient(circle, color-mix(in oklab, var(--blue-500) 38%, transparent), transparent 65%); }
+  .content { position:relative; z-index:2; }
+  .eyebrow { color: var(--cyan-400); }
+  h2 { color: #fff; font-family: var(--font-display); font-size: 34px; margin: 10px 0 0; letter-spacing:-.02em; }
+  .rk { position:absolute; right:30px; bottom:26px; width: 230px; opacity:.9; z-index:1; }
+</style>
+</head>
+<body>
+  <div class="scene bp-grid" data-theme="dark">
+    <div class="glow"></div>
+    <img class="rk" src="../../assets/logo-astro-white.png" alt="">
+    <div class="content">
+      <span class="eyebrow">Bergen · est. 2025 · hybrid propulsion</span>
+      <h2>Bergens høyeste punkt</h2>
+    </div>
+  </div>
+</body>
+</html>

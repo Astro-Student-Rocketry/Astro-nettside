@@ -1,0 +1,28 @@
+<!-- @dsCard group="Type" viewport="700x210" name="Mono & eyebrow — IBM Plex Mono" subtitle="Telemetry labels, data readouts, eyebrows" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; background: var(--bg-page); padding: 24px 28px; }
+  .grid { display:flex; flex-direction:column; gap:16px; }
+  .readout { font-family: var(--font-mono); font-variant-numeric: tabular-nums; display:flex; gap:22px; }
+  .stat { display:flex; flex-direction:column; gap:2px; }
+  .val { font-size: 26px; font-weight: 600; color: var(--text-strong); }
+  .lbl { font-family: var(--font-mono); font-size: 10px; letter-spacing:.14em; text-transform:uppercase; color: var(--text-muted); }
+  .accent { color: var(--brand); }
+</style>
+</head>
+<body>
+  <div class="grid">
+    <span class="eyebrow">Telemetry · T-minus 00:09</span>
+    <div class="readout">
+      <div class="stat"><span class="val accent">3.2<span style="font-size:14px"> km</span></span><span class="lbl">Target apogee</span></div>
+      <div class="stat"><span class="val">982<span style="font-size:14px"> N</span></span><span class="lbl">Peak thrust</span></div>
+      <div class="stat"><span class="val">N₂O</span><span class="lbl">Oxidizer</span></div>
+      <div class="stat"><span class="val">14.6<span style="font-size:14px"> s</span></span><span class="lbl">Burn time</span></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+/* ASTRO HVL — Color tokens
+   Brand: black · blue · white. Cool, blueprint-tinted neutrals.
+   Vibe: technical aerospace / telemetry / precision. Dark-forward. */
+
+:root {
+  /* ---- Base neutrals (cool, navy-tinted) ---- */
+  --white:      #FFFFFF;
+  --paper:      #F4F7FB;   /* page background, light surfaces */
+  --mist:       #E7EEF6;   /* sunken / subtle fills */
+  --cloud:      #D4DFEC;   /* hairlines on light */
+
+  --slate-200:  #C2CFDD;
+  --slate-300:  #A6B6C8;
+  --slate-400:  #8194A9;
+  --slate-500:  #5E7389;   /* muted text on light */
+  --slate-600:  #44586E;
+
+  --ink:        #0A1626;   /* primary text on light, near-black navy */
+
+  /* ---- Navy (dark surfaces / hero / blueprint) ---- */
+  --navy-950:   #060E1A;
+  --navy-900:   #0A1A2F;   /* primary dark surface */
+  --navy-850:   #0C2138;
+  --navy-800:   #0F2A47;
+  --navy-700:   #163A5E;
+  --navy-600:   #1F4C77;
+
+  /* ---- Blue (primary brand) ---- */
+  --blue-800:   #0B3E94;
+  --blue-700:   #0E4FB8;
+  --blue-600:   #1560D8;
+  --blue-500:   #1F6FEB;   /* PRIMARY action / brand blue */
+  --blue-400:   #4E8DF3;
+  --blue-300:   #8FB6F8;
+  --blue-200:   #BFD6FB;
+  --blue-100:   #DFEAFD;
+  --blue-050:   #EFF5FE;
+
+  /* ---- Cyan (telemetry accent — use sparingly) ---- */
+  --cyan-600:   #15A6C4;
+  --cyan-500:   #2BC4E0;
+  --cyan-400:   #57D6EE;
+
+  /* ---- Semantic status ---- */
+  --success:    #2FB67C;
+  --success-bg: #E4F6EE;
+  --warning:    #E29A22;
+  --warning-bg: #FBF0DC;
+  --danger:     #E5484D;
+  --danger-bg:  #FCE7E7;
+
+  /* ===========================================================
+     Semantic aliases — DEFAULT (light surface)
+     =========================================================== */
+  --bg-page:        var(--paper);
+  --bg-elevated:    var(--white);
+  --surface-card:   var(--white);
+  --surface-sunken: var(--mist);
+  --surface-inset:  var(--blue-050);
+
+  --text-strong:    var(--ink);
+  --text-body:      #25364A;
+  --text-muted:     var(--slate-500);
+  --text-inverse:   var(--white);
+  --text-link:      var(--blue-600);
+
+  --border-subtle:  var(--cloud);
+  --border-strong:  var(--slate-300);
+  --border-field:   var(--slate-300);
+
+  --brand:          var(--blue-500);
+  --brand-hover:    var(--blue-600);
+  --brand-active:   var(--blue-700);
+  --brand-contrast: var(--white);
+  --accent:         var(--cyan-500);
+
+  --focus-ring:     color-mix(in oklab, var(--blue-500) 55%, transparent);
+
+  /* Blueprint grid line color (light surfaces) */
+  --grid-line:      color-mix(in oklab, var(--blue-500) 12%, transparent);
+}
+
+/* ===========================================================
+   Dark surface scope — apply on hero / dark sections / app shell
+   =========================================================== */
+[data-theme="dark"] {
+  --bg-page:        var(--navy-900);
+  --bg-elevated:    var(--navy-850);
+  --surface-card:   var(--navy-850);
+  --surface-sunken: var(--navy-950);
+  --surface-inset:  color-mix(in oklab, var(--blue-500) 14%, var(--navy-900));
+
+  --text-strong:    var(--white);
+  --text-body:      #C7D6E6;
+  --text-muted:     #7E93AA;
+  --text-inverse:   var(--ink);
+  --text-link:      var(--blue-300);
+
+  --border-subtle:  color-mix(in oklab, var(--white) 10%, transparent);
+  --border-strong:  color-mix(in oklab, var(--white) 20%, transparent);
+  --border-field:   var(--navy-600);
+
+  --brand:          var(--blue-500);
+  --brand-hover:    var(--blue-400);
+  --brand-active:   var(--blue-300);
+  --brand-contrast: var(--white);
+  --accent:         var(--cyan-400);
+
+  --focus-ring:     color-mix(in oklab, var(--cyan-400) 60%, transparent);
+  --grid-line:      color-mix(in oklab, var(--cyan-400) 14%, transparent);
+}

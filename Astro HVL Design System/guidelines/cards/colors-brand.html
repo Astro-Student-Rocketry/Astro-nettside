@@ -1,0 +1,37 @@
+<!-- @dsCard group="Colors" viewport="700x180" name="Brand blue" subtitle="Primary action & brand — blue-500 is the workhorse" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; background: var(--bg-page); padding: 20px; }
+  .row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+  .sw { border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-subtle); }
+  .chip { height: 64px; }
+  .meta { padding: 8px 10px; background: var(--surface-card); }
+  .name { font-family: var(--font-mono); font-size: 11px; color: var(--text-strong); font-weight: 600; }
+  .hex { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); text-transform: uppercase; }
+  .star { color: var(--brand); }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw"><div class="chip" style="background:var(--blue-800)"></div><div class="meta"><div class="name">800</div><div class="hex">0B3E94</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--blue-700)"></div><div class="meta"><div class="name">700</div><div class="hex">0E4FB8</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--blue-600)"></div><div class="meta"><div class="name">600</div><div class="hex">1560D8</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--blue-500)"></div><div class="meta"><div class="name">500 <span class="star">★</span></div><div class="hex">1F6FEB</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--blue-400)"></div><div class="meta"><div class="name">400</div><div class="hex">4E8DF3</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--blue-300)"></div><div class="meta"><div class="name">300</div><div class="hex">8FB6F8</div></div></div>
+  </div>
+  <div class="row" style="margin-top:10px; grid-template-columns: repeat(6, 1fr);">
+    <div class="sw"><div class="chip" style="background:var(--blue-200)"></div><div class="meta"><div class="name">200</div><div class="hex">BFD6FB</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--blue-100)"></div><div class="meta"><div class="name">100</div><div class="hex">DFEAFD</div></div></div>
+    <div class="sw"><div class="chip" style="background:var(--blue-050); border-bottom:1px solid var(--border-subtle)"></div><div class="meta"><div class="name">050</div><div class="hex">EFF5FE</div></div></div>
+    <div class="sw" style="grid-column: span 3; display:flex; align-items:center; gap:12px; padding:0 14px; background:var(--surface-card)">
+      <span class="eyebrow">Usage</span>
+      <span style="font-size:12px; color:var(--text-muted); font-family:var(--font-sans)">Buttons, links, focus, key data. One blue, used decisively.</span>
+    </div>
+  </div>
+</body>
+</html>
