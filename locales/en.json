@@ -1,0 +1,25 @@
+{
+  "site": {
+    "name": "ASTRO HVL"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "team": "Team",
+    "partners": "Partners",
+    "launch": "Launches",
+    "join": "Join"
+  },
+  "lang": {
+    "switch": "Switch language",
+    "no": "Norsk",
+    "en": "English"
+  },
+  "footer": {
+    "tagline": "The student rocketry association at Western Norway University of Applied Sciences.",
+    "contact": "Contact",
+    "follow": "Follow us",
+    "email": "post{'@'}astrohvl.no",
+    "rights": "All rights reserved."
+  }
+}

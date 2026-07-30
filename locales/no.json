@@ -1,0 +1,25 @@
+{
+  "site": {
+    "name": "ASTRO HVL"
+  },
+  "nav": {
+    "home": "Hjem",
+    "about": "Om oss",
+    "team": "Teamet",
+    "partners": "Partnere",
+    "launch": "Oppskytinger",
+    "join": "Bli med"
+  },
+  "lang": {
+    "switch": "Bytt språk",
+    "no": "Norsk",
+    "en": "English"
+  },
+  "footer": {
+    "tagline": "Studentraketforeningen ved Høgskulen på Vestlandet.",
+    "contact": "Kontakt",
+    "follow": "Følg oss",
+    "email": "post{'@'}astrohvl.no",
+    "rights": "Alle rettigheter forbeholdt."
+  }
+}
