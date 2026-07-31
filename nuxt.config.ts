@@ -45,7 +45,11 @@ export default defineNuxtConfig({
   },
 
   googleFonts: {
-    families: { Inter: [400, 500, 600, 700] },
+    families: {
+      Inter: [400, 500, 600, 700], // body copy
+      Archivo: [500, 600, 700], // headings
+      'IBM+Plex+Mono': [500, 600], // eyebrows, labels, figures
+    },
     display: 'swap',
   },
 

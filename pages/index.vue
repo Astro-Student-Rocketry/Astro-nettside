@@ -1,10 +1,13 @@
 <script setup lang="ts">
 const { t } = useI18n()
+
+// The hero is a dark full-bleed section — float the nav on top of it.
+definePageMeta({ navOverlay: true })
+
 useHead({ title: () => `${t('site.name')} — ${t('nav.home')}` })
 </script>
 
 <template>
-  <section class="mx-auto max-w-6xl px-4 py-16">
-    <h1 class="text-3xl font-bold text-brand-blueDark">{{ t('nav.home') }}</h1>
-  </section>
+  <HomeHero />
+  <HomeHighlights />
 </template>

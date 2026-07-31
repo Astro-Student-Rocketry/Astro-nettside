@@ -7,13 +7,51 @@
     "about": "Om oss",
     "team": "Teamet",
     "partners": "Partnere",
-    "launch": "Oppskytinger",
-    "join": "Bli med"
+    "launch": "Oppskyting",
+    "join": "Bli med",
+    "logoAlt": "ASTRO HVL",
+    "openMenu": "Åpne menyen",
+    "closeMenu": "Lukk menyen"
   },
   "lang": {
     "switch": "Bytt språk",
     "no": "Norsk",
     "en": "English"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Bergen · HVL · Vestlandets første",
+      "headlineLead": "Bygget av studenter.",
+      "headlineAccent": "Skutt opp fra Vestlandet.",
+      "subline": "ASTRO er studentrakettforeningen ved HVL i Bergen. Vi designer, bygger, tester og skyter opp raketter — hele syklusen, i egne hender.",
+      "cta": "Bli med i ASTRO",
+      "secondaryCta": "Se oppskytingene",
+      "facts": {
+        "foundedLabel": "Grunnlagt",
+        "foundedValue": "2025",
+        "baseLabel": "Base",
+        "baseValue": "Bergen, HVL",
+        "networkLabel": "Nettverk",
+        "networkValue": "NORSTEC",
+        "intakeLabel": "Opptak",
+        "intakeValue": "Åpent"
+      }
+    },
+    "highlights": {
+      "eyebrow": "Slik jobber vi",
+      "heading": "Fra tegnebrett til oppskytingsrampe",
+      "lead": "Alt vi flyr er bygget av studenter. Vi designer strukturen, brenner motorene, skriver koden og drar ut i felt for å teste — om og om igjen til den går opp.",
+      "build": {
+        "title": "Struktur og motor",
+        "body": "Kroppen freses, lamineres og settes sammen på verkstedet på HVL. Motorene testes statisk før noe som helst får lov til å fly.",
+        "alt": "Studenter fra ASTRO som jobber med rakettstrukturen på verkstedet"
+      },
+      "avionics": {
+        "title": "Avionikk og elektronikk",
+        "body": "Vi utvikler vår egen flycomputer — sensorer, logging, telemetri og utløsning av fallskjerm. Alt loddes, programmeres og testes internt.",
+        "alt": "Nærbilde av ASTRO sin egenutviklede flycomputer og elektronikk"
+      }
+    }
   },
   "footer": {
     "tagline": "Studentraketforeningen ved Høgskulen på Vestlandet.",

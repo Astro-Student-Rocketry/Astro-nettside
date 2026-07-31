@@ -8,12 +8,50 @@
     "team": "Team",
     "partners": "Partners",
     "launch": "Launches",
-    "join": "Join"
+    "join": "Join",
+    "logoAlt": "ASTRO HVL",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "lang": {
     "switch": "Switch language",
     "no": "Norsk",
     "en": "English"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Bergen · HVL · Western Norway's first",
+      "headlineLead": "Built by students.",
+      "headlineAccent": "Launched from Western Norway.",
+      "subline": "ASTRO is the student rocketry association at HVL in Bergen. We design, build, test and launch rockets — the whole cycle, in our own hands.",
+      "cta": "Join ASTRO",
+      "secondaryCta": "See the launches",
+      "facts": {
+        "foundedLabel": "Founded",
+        "foundedValue": "2025",
+        "baseLabel": "Base",
+        "baseValue": "Bergen, HVL",
+        "networkLabel": "Network",
+        "networkValue": "NORSTEC",
+        "intakeLabel": "Intake",
+        "intakeValue": "Open"
+      }
+    },
+    "highlights": {
+      "eyebrow": "How we work",
+      "heading": "From drawing board to launch rail",
+      "lead": "Everything we fly is built by students. We design the structure, burn the motors, write the code and head into the field to test — over and over until it flies.",
+      "build": {
+        "title": "Structure and propulsion",
+        "body": "Airframes are machined, laminated and assembled in the workshop at HVL. Motors are static-fired on the ground long before anything is cleared to fly.",
+        "alt": "ASTRO students working on the rocket airframe in the workshop"
+      },
+      "avionics": {
+        "title": "Avionics and electronics",
+        "body": "We develop our own flight computer — sensors, logging, telemetry and parachute deployment. Soldered, programmed and tested entirely in-house.",
+        "alt": "Close-up of ASTRO's in-house flight computer and electronics"
+      }
+    }
   },
   "footer": {
     "tagline": "The student rocketry association at Western Norway University of Applied Sciences.",
