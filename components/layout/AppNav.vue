@@ -24,8 +24,8 @@ watch(() => route.fullPath, () => (open.value = false))
 
 const logo = computed(() =>
   props.overlay
-    ? '/images/Genneral/AstroHVL_hvit-nav.svg'
-    : '/images/Genneral/AstroHVL_svart-nav.svg',
+    ? '/images/General/AstroHVL_hvit-nav.svg'
+    : '/images/General/AstroHVL_svart-nav.svg',
 )
 const linkClass = computed(() =>
   props.overlay

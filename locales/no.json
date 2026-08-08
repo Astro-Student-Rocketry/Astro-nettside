@@ -53,6 +53,227 @@
       }
     }
   },
+  "about": {
+    "eyebrow": "Om ASTRO",
+    "heading": "Bergens eneste rakettmiljø",
+    "lead": "ASTRO er studentrakettforeningen ved Høgskulen på Vestlandet. Vi er den eneste studentorganisasjonen i Bergen — Norges nest største by — som bygger og skyter opp raketter, og vi gjør hele jobben selv: fra første skisse til motoren tenner.",
+    "heroImageAlt": "ASTRO-medlemmer i felt under en oppskyting utenfor Bergen",
+    "mission": {
+      "eyebrow": "Oppdraget",
+      "heading": "Hvorfor vi finnes",
+      "lead": "Rakettbygging er den korteste veien fra pensum til praksis. ASTRO finnes for å gi studenter på Vestlandet et sted å bruke faget på ordentlig — med ekte krav, ekte tidsfrister og en oppskyting som fasit.",
+      "pillars": {
+        "bergen": {
+          "title": "Et rakettmiljø i Bergen",
+          "body": "Norges nest største by hadde ingen studentrakettforening. Nå har den én. Vi bygger opp kompetansen her, i stedet for at studenter må reise for å finne den."
+        },
+        "hands": {
+          "title": "Hele syklusen, i egne hender",
+          "body": "Design, produksjon, testing, oppskyting og gjenvinning. Ingen deler av raketten er noen andres ansvar — vi lærer ved å ta ansvaret hele veien."
+        },
+        "open": {
+          "title": "Åpent for alle studenter",
+          "body": "Vi rekrutterer fra både HVL og UiB, og fra alle fagfelt. Ingen rakettbakgrunn nødvendig — bare lyst til å bygge noe som faktisk skal fly."
+        }
+      }
+    },
+    "slogan": {
+      "quote": "Bergens høyeste punkt",
+      "caption": "Slagordet til teamet — og målestokken vi måler oss mot hver gang vi drar ut i felt."
+    },
+    "story": {
+      "eyebrow": "Historien",
+      "heading": "Fra idé til første oppskyting",
+      "imageAlt": "ASTRO sin rakett på rampen før oppskyting utenfor Bergen",
+      "founding": {
+        "title": "Slik startet det",
+        "body": "ASTRO ble startet av studenter ved HVL som ville bygge raketter og oppdaget at det ikke fantes noe sted å gjøre det i Bergen. Løsningen ble å lage stedet selv: en forening, et verksted, og en plan om å få noe opp i lufta så fort som mulig."
+      },
+      "firstLaunch": {
+        "title": "Første oppskyting",
+        "body": "Den første raketten vår gikk opp like utenfor Bergen. Alt fra struktur til elektronikk var bygget av medlemmene, og oppskytingen ga oss det ingen simulering kan gi: data, feil å lære av, og beviset på at dette lar seg gjøre herfra."
+      },
+      "today": {
+        "title": "Der vi er nå",
+        "body": "I dag jobber teamene parallelt med fremdrift, struktur og avionikk. Hver oppskyting blir dokumentert, hver test gir tall vi tar med videre — og ambisjonene stiger for hvert prosjekt."
+      }
+    },
+    "hybrid": {
+      "eyebrow": "Fremdrift",
+      "heading": "Norges eneste studentutviklede hybridmotor",
+      "body": "ASTRO er den eneste studentorganisasjonen i Norge som utvikler en hybrid rakettmotor. En hybridmotor kombinerer fast brensel med flytende eller gassformig oksidasjonsmiddel — den kan strupereguleres og stenges av, og er tryggere å håndtere enn en ren faststoffmotor. Den er også vesentlig vanskeligere å få til, noe som er nettopp poenget.",
+      "points": {
+        "design": {
+          "title": "Egen design",
+          "body": "Forbrenningskammer, injektor og dyse er dimensjonert og produsert av medlemmene våre."
+        },
+        "test": {
+          "title": "Testet på bakken",
+          "body": "Motoren står i statisk testrigg med instrumentering før den får lov til å fly."
+        },
+        "data": {
+          "title": "Data ut av hver brenning",
+          "body": "Trykk, skyvekraft og temperatur logges og brukes til neste iterasjon."
+        }
+      }
+    },
+    "norstec": {
+      "eyebrow": "Nettverk",
+      "heading": "Koblet til NORSTEC",
+      "body": "ASTRO er en del av NORSTEC, nettverket som knytter sammen norske miljø innen romteknologi. Det gir oss kontakt med andre studentgrupper, tilgang på erfaring fra folk som har gjort dette før, og en vei inn i den norske romindustrien for medlemmene våre.",
+      "aside": "For partnere betyr det at støtte til ASTRO også er støtte til rekrutteringen inn i et fagfelt Norge satser på."
+    },
+    "cta": {
+      "heading": "Vil du være med å bygge?",
+      "body": "Vi tar inn nye medlemmer hvert semester. Kom som du er — vi lærer opp resten.",
+      "action": "Bli med i ASTRO",
+      "secondary": "Se oppskytingene"
+    }
+  },
+  "team": {
+    "eyebrow": "Menneskene bak",
+    "heading": "Teamet",
+    "lead": "ASTRO drives av studenter fra HVL og UiB. Styret holder foreningen i gang, mens de tekniske teamene bygger, tester og flyr rakettene.",
+    "portraitAlt": "{name}, {role} i ASTRO HVL",
+    "groups": {
+      "board": {
+        "title": "Styret",
+        "body": "Ansvar for drift, økonomi, partnere og at foreningen går rundt."
+      },
+      "propulsion": {
+        "title": "Fremdrift",
+        "body": "Motorer, drivstoff og statiske tester — alt som skyver raketten oppover."
+      },
+      "structures": {
+        "title": "Struktur",
+        "body": "Kropp, finner og gjenvinning. Det som må tåle både oppskyting og landing."
+      },
+      "avionics": {
+        "title": "Avionikk",
+        "body": "Flycomputer, sensorer, telemetri og koden som styrer flyturen."
+      }
+    },
+    "cta": {
+      "heading": "Vil du stå her neste år?",
+      "body": "Vi tar inn nye medlemmer hvert semester — ingen rakettbakgrunn nødvendig, bare lyst til å bygge.",
+      "action": "Bli med i ASTRO"
+    },
+    "members": {
+      "president": {
+        "role": "Leder",
+        "blurb": "Holder i helheten og representerer ASTRO utad."
+      },
+      "vicePresident": {
+        "role": "Nestleder",
+        "blurb": "Følger opp prosjektene og steppet inn der det trengs."
+      },
+      "treasurer": {
+        "role": "Økonomiansvarlig",
+        "blurb": "Budsjett, innkjøp og søknader om støtte."
+      },
+      "communications": {
+        "role": "Kommunikasjonsansvarlig",
+        "blurb": "Sosiale medier, nettsiden og kontakt med partnere."
+      },
+      "propulsionLead": {
+        "role": "Teamleder fremdrift",
+        "blurb": "Leder arbeidet med motorutvikling og testprogram."
+      },
+      "propulsionEngineer": {
+        "role": "Motoringeniør",
+        "blurb": "Designer og produserer motorene vi flyr."
+      },
+      "propulsionTest": {
+        "role": "Testansvarlig",
+        "blurb": "Planlegger og kjører statiske tester på bakken."
+      },
+      "structuresLead": {
+        "role": "Teamleder struktur",
+        "blurb": "Har ansvar for at rakettkroppen tåler belastningene."
+      },
+      "structuresAirframe": {
+        "role": "Strukturingeniør",
+        "blurb": "Jobber med kropp, finner og komposittproduksjon."
+      },
+      "structuresRecovery": {
+        "role": "Gjenvinningsansvarlig",
+        "blurb": "Fallskjermsystem og trygg landing."
+      },
+      "avionicsLead": {
+        "role": "Teamleder avionikk",
+        "blurb": "Leder utviklingen av flycomputeren."
+      },
+      "avionicsSoftware": {
+        "role": "Programvareutvikler",
+        "blurb": "Skriver flyprogramvaren og logging av data."
+      },
+      "avionicsHardware": {
+        "role": "Elektronikkutvikler",
+        "blurb": "Designer kretskort, sensorer og telemetri."
+      }
+    }
+  },
+  "partners": {
+    "eyebrow": "Samarbeid",
+    "heading": "Partnere og sponsorer",
+    "lead": "Raketter er dyre. Det vi får til, får vi til fordi bedrifter, fagmiljø og leverandører stiller opp med penger, utstyr, verksted og kompetanse.",
+    "visit": "Besøk nettsiden til {name}",
+    "visitShort": "Besøk nettsiden",
+    "groups": {
+      "sponsors": {
+        "title": "Sponsorer",
+        "body": "Bedrifter som støtter ASTRO økonomisk eller med materiell."
+      },
+      "academic": {
+        "title": "Akademiske partnere",
+        "body": "Fagmiljø, studieprogram og studentnettverk vi samarbeider med."
+      },
+      "industry": {
+        "title": "Industripartnere",
+        "body": "Leverandører og tekniske samarbeidspartnere som hjelper oss å produsere og teste."
+      }
+    },
+    "cta": {
+      "heading": "Bli partner",
+      "body": "Vil bedriften din nå studenter innen ingeniørfag, og støtte oppbyggingen av rakettmiljøet på Vestlandet? Ta kontakt, så sender vi over en partnerpakke.",
+      "action": "Ta kontakt"
+    },
+    "items": {
+      "sponsor1": {
+        "blurb": "Hovedsponsor. Kort beskrivelse av hva de bidrar med."
+      },
+      "sponsor2": {
+        "blurb": "Støtter prosjektet med midler til motorutvikling."
+      },
+      "sponsor3": {
+        "blurb": "Bidrar med materiell og utstyr til verkstedet."
+      },
+      "sponsor4": {
+        "blurb": "Støtter oppskytingskampanjene våre."
+      },
+      "academic1": {
+        "blurb": "Fagmiljø som veileder og stiller lab til rådighet."
+      },
+      "academic2": {
+        "blurb": "Studieprogram vi rekrutterer fra og samarbeider med."
+      },
+      "academic3": {
+        "blurb": "Nettverk for studentraketter i Norge."
+      },
+      "industry1": {
+        "blurb": "Leverandør av komponenter og materialer."
+      },
+      "industry2": {
+        "blurb": "Hjelper oss med maskinering og produksjon."
+      },
+      "industry3": {
+        "blurb": "Teknisk rådgivning på elektronikk og telemetri."
+      },
+      "industry4": {
+        "blurb": "Bidrar med test- og måleutstyr."
+      }
+    }
+  },
   "footer": {
     "tagline": "Studentraketforeningen ved Høgskulen på Vestlandet.",
     "contact": "Kontakt",

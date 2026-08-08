@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 160' width='400' height='160' role='img'>
+  <rect x='4' y='4' width='392' height='152' rx='10' fill='none' stroke='#21607B' stroke-opacity='.35' stroke-width='2' stroke-dasharray='8 6'/>
+  <circle cx='96' cy='80' r='30' fill='#21607B' fill-opacity='.18'/>
+  <circle cx='96' cy='80' r='13' fill='#21607B' fill-opacity='.45'/>
+  <text x='148' y='75' font-family='Archivo, Inter, sans-serif' font-size='24' font-weight='700' fill='#21607B'>SPONSOR THREE</text>
+  <text x='148' y='102' font-family='IBM Plex Mono, monospace' font-size='13' letter-spacing='2' fill='#21607B' fill-opacity='.6'>PLACEHOLDER</text>
+</svg>

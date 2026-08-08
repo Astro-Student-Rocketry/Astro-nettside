@@ -53,6 +53,227 @@
       }
     }
   },
+  "about": {
+    "eyebrow": "About ASTRO",
+    "heading": "Bergen's only rocketry team",
+    "lead": "ASTRO is the student rocketry association at Høgskulen på Vestlandet. We are the only student organisation in Bergen — Norway's second-largest city — building and launching rockets, and we do the whole job ourselves: from the first sketch to motor ignition.",
+    "heroImageAlt": "ASTRO members in the field during a launch outside Bergen",
+    "mission": {
+      "eyebrow": "The mission",
+      "heading": "Why we exist",
+      "lead": "Rocketry is the shortest path from curriculum to practice. ASTRO exists to give students in Western Norway somewhere to use their field for real — with real requirements, real deadlines, and a launch as the final answer.",
+      "pillars": {
+        "bergen": {
+          "title": "A rocketry scene in Bergen",
+          "body": "Norway's second-largest city had no student rocketry association. Now it has one. We are building the expertise here, instead of students having to leave town to find it."
+        },
+        "hands": {
+          "title": "The whole cycle, in our own hands",
+          "body": "Design, manufacturing, testing, launch and recovery. No part of the rocket is someone else's responsibility — we learn by owning it end to end."
+        },
+        "open": {
+          "title": "Open to every student",
+          "body": "We recruit from both HVL and UiB, across every field of study. No rocketry background required — just the urge to build something that actually has to fly."
+        }
+      }
+    },
+    "slogan": {
+      "quote": "Bergen's highest point",
+      "caption": "The team's slogan — and the benchmark we measure ourselves against every time we head into the field."
+    },
+    "story": {
+      "eyebrow": "The story",
+      "heading": "From idea to first launch",
+      "imageAlt": "ASTRO's rocket on the rail before launch outside Bergen",
+      "founding": {
+        "title": "How it started",
+        "body": "ASTRO was started by students at HVL who wanted to build rockets and found there was nowhere in Bergen to do it. The fix was to build the place themselves: an association, a workshop, and a plan to get something airborne as fast as possible."
+      },
+      "firstLaunch": {
+        "title": "The first launch",
+        "body": "Our first rocket went up just outside Bergen. Everything from airframe to electronics was built by the members, and the launch gave us what no simulation can: data, mistakes to learn from, and proof that this can be done from here."
+      },
+      "today": {
+        "title": "Where we are now",
+        "body": "Today the teams work in parallel on propulsion, structures and avionics. Every launch is documented, every test produces numbers we carry forward — and the ambitions climb with each project."
+      }
+    },
+    "hybrid": {
+      "eyebrow": "Propulsion",
+      "heading": "Norway's only student-developed hybrid motor",
+      "body": "ASTRO is the only student organisation in Norway developing a hybrid rocket engine. A hybrid combines solid fuel with a liquid or gaseous oxidiser — it can be throttled and shut down, and it is safer to handle than a pure solid motor. It is also considerably harder to get right, which is rather the point.",
+      "points": {
+        "design": {
+          "title": "Our own design",
+          "body": "Combustion chamber, injector and nozzle are sized and manufactured by our members."
+        },
+        "test": {
+          "title": "Proven on the ground",
+          "body": "The motor runs on an instrumented static test stand before it is cleared to fly."
+        },
+        "data": {
+          "title": "Data out of every burn",
+          "body": "Pressure, thrust and temperature are logged and fed straight into the next iteration."
+        }
+      }
+    },
+    "norstec": {
+      "eyebrow": "Network",
+      "heading": "Connected to NORSTEC",
+      "body": "ASTRO is part of NORSTEC, the network tying Norwegian space technology communities together. It connects us to other student groups, gives us access to experience from people who have done this before, and opens a route into the Norwegian space industry for our members.",
+      "aside": "For partners, that means supporting ASTRO is also supporting recruitment into a field Norway is investing in."
+    },
+    "cta": {
+      "heading": "Want to help build it?",
+      "body": "We take in new members every semester. Come as you are — we'll teach you the rest.",
+      "action": "Join ASTRO",
+      "secondary": "See the launches"
+    }
+  },
+  "team": {
+    "eyebrow": "The people behind it",
+    "heading": "The team",
+    "lead": "ASTRO is run by students from HVL and UiB. The board keeps the association running, while the technical teams build, test and fly the rockets.",
+    "portraitAlt": "{name}, {role} at ASTRO HVL",
+    "groups": {
+      "board": {
+        "title": "The board",
+        "body": "Responsible for operations, finances, partners and keeping the association running."
+      },
+      "propulsion": {
+        "title": "Propulsion",
+        "body": "Motors, propellant and static fires — everything that pushes the rocket upward."
+      },
+      "structures": {
+        "title": "Structures",
+        "body": "Airframe, fins and recovery. The parts that have to survive both launch and landing."
+      },
+      "avionics": {
+        "title": "Avionics",
+        "body": "Flight computer, sensors, telemetry and the code that runs the flight."
+      }
+    },
+    "cta": {
+      "heading": "Want to be on this page next year?",
+      "body": "We take in new members every semester — no rocketry background required, just the urge to build.",
+      "action": "Join ASTRO"
+    },
+    "members": {
+      "president": {
+        "role": "President",
+        "blurb": "Holds the whole thing together and represents ASTRO externally."
+      },
+      "vicePresident": {
+        "role": "Vice president",
+        "blurb": "Follows up the projects and steps in wherever needed."
+      },
+      "treasurer": {
+        "role": "Treasurer",
+        "blurb": "Budgets, purchasing and funding applications."
+      },
+      "communications": {
+        "role": "Communications",
+        "blurb": "Social media, the website and partner contact."
+      },
+      "propulsionLead": {
+        "role": "Propulsion lead",
+        "blurb": "Leads motor development and the test programme."
+      },
+      "propulsionEngineer": {
+        "role": "Motor engineer",
+        "blurb": "Designs and manufactures the motors we fly."
+      },
+      "propulsionTest": {
+        "role": "Test engineer",
+        "blurb": "Plans and runs the static fires on the ground."
+      },
+      "structuresLead": {
+        "role": "Structures lead",
+        "blurb": "Owns the airframe and the loads it has to take."
+      },
+      "structuresAirframe": {
+        "role": "Structures engineer",
+        "blurb": "Works on airframe, fins and composite manufacturing."
+      },
+      "structuresRecovery": {
+        "role": "Recovery engineer",
+        "blurb": "Parachute system and getting the rocket down safely."
+      },
+      "avionicsLead": {
+        "role": "Avionics lead",
+        "blurb": "Leads development of the flight computer."
+      },
+      "avionicsSoftware": {
+        "role": "Software engineer",
+        "blurb": "Writes the flight software and data logging."
+      },
+      "avionicsHardware": {
+        "role": "Electronics engineer",
+        "blurb": "Designs boards, sensors and telemetry."
+      }
+    }
+  },
+  "partners": {
+    "eyebrow": "Collaboration",
+    "heading": "Partners and sponsors",
+    "lead": "Rockets are expensive. What we manage to build, we build because companies, academic groups and suppliers back us with funding, equipment, workshop access and expertise.",
+    "visit": "Visit the {name} website",
+    "visitShort": "Visit website",
+    "groups": {
+      "sponsors": {
+        "title": "Sponsors",
+        "body": "Companies supporting ASTRO financially or in kind."
+      },
+      "academic": {
+        "title": "Academic partners",
+        "body": "Research groups, study programmes and student networks we work with."
+      },
+      "industry": {
+        "title": "Industry partners",
+        "body": "Suppliers and technical collaborators who help us manufacture and test."
+      }
+    },
+    "cta": {
+      "heading": "Become a partner",
+      "body": "Want to reach engineering students and help build the rocketry scene in Western Norway? Get in touch and we will send over a partnership package.",
+      "action": "Get in touch"
+    },
+    "items": {
+      "sponsor1": {
+        "blurb": "Main sponsor. Short description of what they contribute."
+      },
+      "sponsor2": {
+        "blurb": "Supports the project with funding for motor development."
+      },
+      "sponsor3": {
+        "blurb": "Contributes materials and equipment for the workshop."
+      },
+      "sponsor4": {
+        "blurb": "Supports our launch campaigns."
+      },
+      "academic1": {
+        "blurb": "Academic group providing supervision and lab access."
+      },
+      "academic2": {
+        "blurb": "Study programme we recruit from and collaborate with."
+      },
+      "academic3": {
+        "blurb": "Network for student rocketry in Norway."
+      },
+      "industry1": {
+        "blurb": "Supplier of components and materials."
+      },
+      "industry2": {
+        "blurb": "Helps us with machining and manufacturing."
+      },
+      "industry3": {
+        "blurb": "Technical advice on electronics and telemetry."
+      },
+      "industry4": {
+        "blurb": "Contributes test and measurement equipment."
+      }
+    }
+  },
   "footer": {
     "tagline": "The student rocketry association at Western Norway University of Applied Sciences.",
     "contact": "Contact",
