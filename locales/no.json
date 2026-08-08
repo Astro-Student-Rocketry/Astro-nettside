@@ -274,6 +274,104 @@
       }
     }
   },
+  "join": {
+    "eyebrow": "Opptak",
+    "heading": "Bli med i ASTRO",
+    "lead": "Vi tar inn nye medlemmer hvert semester, og vi leter etter folk som har lyst til å bygge noe ordentlig. Ingen rakettbakgrunn nødvendig — nysgjerrighet og vilje til å møte opp teller mer enn karakterer.",
+    "imageAlt": "Medlemmer i ASTRO som jobber sammen på verkstedet",
+    "cta": {
+      "action": "Søk her",
+      "note": "Søknaden ligger i et Google-skjema og tar et par minutter.",
+      "newTab": "Åpnes i ny fane",
+      "fallback": "Får du ikke skjemaet til å fungere? Send oss en e-post på {email}."
+    },
+    "why": {
+      "eyebrow": "Hvorfor bli med",
+      "heading": "Hva du får ut av det",
+      "items": {
+        "hands": {
+          "title": "Ekte prosjekterfaring",
+          "body": "Du jobber med maskinvare som faktisk skal fly, med krav og tidsfrister som ikke kan forhandles bort. Det er den typen erfaring som veier tungt på CV-en."
+        },
+        "people": {
+          "title": "Et miljø som drar i samme retning",
+          "body": "Studenter fra HVL og UiB, på tvers av linjer og årstrinn. Verksted, testdager, felttur til oppskyting — og folk som gidder å bruke helga på det."
+        },
+        "network": {
+          "title": "Kontakt med bransjen",
+          "body": "Gjennom partnerne våre og NORSTEC møter du folk som jobber med romteknologi i Norge. Flere har fått sommerjobb og oppgaver ut av det."
+        }
+      }
+    },
+    "roles": {
+      "eyebrow": "Hvem vi ser etter",
+      "heading": "Det er plass til flere enn ingeniører",
+      "lead": "De tekniske teamene bygger raketten, men foreningen trenger like mye folk som holder orden på penger, partnere og formidling. Du velger retning når du søker — og du kan bytte underveis.",
+      "items": {
+        "propulsion": {
+          "title": "Fremdrift",
+          "body": "Hybridmotor, drivstoff, testrigg og statiske brenninger."
+        },
+        "structures": {
+          "title": "Struktur",
+          "body": "Rakettkropp, finner, komposittproduksjon og fallskjermsystem."
+        },
+        "avionics": {
+          "title": "Avionikk",
+          "body": "Flycomputer, sensorer, telemetri og programvare."
+        },
+        "operations": {
+          "title": "Drift og formidling",
+          "body": "Økonomi, partnerkontakt, sosiale medier, foto og video."
+        }
+      }
+    },
+    "how": {
+      "eyebrow": "Slik går det til",
+      "heading": "Fra søknad til første verkstedkveld",
+      "steps": {
+        "apply": {
+          "title": "Fyll ut skjemaet",
+          "body": "Fortell kort hvem du er, hva du studerer og hva du har lyst til å jobbe med. Det er ikke en jobbsøknad — hold det kort."
+        },
+        "meet": {
+          "title": "Vi tar kontakt",
+          "body": "Du får en uformell prat med teamlederen for det området du er interessert i, og en omvisning på verkstedet."
+        },
+        "build": {
+          "title": "Du er i gang",
+          "body": "Du blir satt på et team og får en oppgave med en gang. Vi lærer opp underveis — alle har begynt et sted."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Kjapt svar",
+      "heading": "Det folk lurer på",
+      "items": {
+        "experience": {
+          "question": "Må jeg kunne noe om raketter fra før?",
+          "answer": "Nei. De aller fleste startet uten. Du trenger ikke kunne CAD, lodde eller programmere for å søke — du trenger å ville lære det."
+        },
+        "study": {
+          "question": "Må jeg studere ved HVL?",
+          "answer": "Nei. Vi holder til på HVL, men tar inn studenter fra både HVL og UiB, uansett studieretning."
+        },
+        "time": {
+          "question": "Hvor mye tid går med?",
+          "answer": "Det varierer med team og periode. Noen uker er det en kveld, før en oppskyting blir det mer. Si fra om hva du har kapasitet til, så finner vi ut av det."
+        },
+        "year": {
+          "question": "Kan jeg søke midt i semesteret?",
+          "answer": "Send søknaden når som helst. Hovedopptaket er ved semesterstart, men vi tar inn folk fortløpende når vi har plass."
+        }
+      }
+    },
+    "closing": {
+      "heading": "Klar? Det tar to minutter.",
+      "body": "Send inn skjemaet, så hører du fra oss.",
+      "action": "Søk her"
+    }
+  },
   "footer": {
     "tagline": "Studentraketforeningen ved Høgskulen på Vestlandet.",
     "contact": "Kontakt",

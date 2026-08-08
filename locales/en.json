@@ -274,6 +274,104 @@
       }
     }
   },
+  "join": {
+    "eyebrow": "Intake",
+    "heading": "Join ASTRO",
+    "lead": "We take in new members every semester, and we are looking for people who want to build something real. No rocketry background required — curiosity and showing up count for more than grades.",
+    "imageAlt": "ASTRO members working together in the workshop",
+    "cta": {
+      "action": "Apply here",
+      "note": "The application is a Google Form and takes a couple of minutes.",
+      "newTab": "Opens in a new tab",
+      "fallback": "Can't get the form to work? Send us an email at {email}."
+    },
+    "why": {
+      "eyebrow": "Why join",
+      "heading": "What you get out of it",
+      "items": {
+        "hands": {
+          "title": "Real project experience",
+          "body": "You work on hardware that actually has to fly, with requirements and deadlines that can't be negotiated away. That is the kind of experience that carries weight on a CV."
+        },
+        "people": {
+          "title": "A team pulling the same way",
+          "body": "Students from HVL and UiB, across every programme and year. Workshop nights, test days, field trips to launch — and people willing to spend the weekend on it."
+        },
+        "network": {
+          "title": "A line into the industry",
+          "body": "Through our partners and NORSTEC you meet people working in Norwegian space technology. Several members have found summer jobs and thesis projects that way."
+        }
+      }
+    },
+    "roles": {
+      "eyebrow": "Who we're looking for",
+      "heading": "There's room for more than engineers",
+      "lead": "The technical teams build the rocket, but the association needs people keeping track of money, partners and storytelling just as much. You pick a direction when you apply — and you can switch later.",
+      "items": {
+        "propulsion": {
+          "title": "Propulsion",
+          "body": "Hybrid motor, propellants, test stand and static fires."
+        },
+        "structures": {
+          "title": "Structures",
+          "body": "Airframe, fins, composite manufacturing and the recovery system."
+        },
+        "avionics": {
+          "title": "Avionics",
+          "body": "Flight computer, sensors, telemetry and software."
+        },
+        "operations": {
+          "title": "Operations and outreach",
+          "body": "Finances, partner contact, social media, photo and video."
+        }
+      }
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "heading": "From application to your first workshop night",
+      "steps": {
+        "apply": {
+          "title": "Fill in the form",
+          "body": "Tell us briefly who you are, what you study and what you'd like to work on. It isn't a job application — keep it short."
+        },
+        "meet": {
+          "title": "We get in touch",
+          "body": "You get an informal chat with the lead for the area you're interested in, and a tour of the workshop."
+        },
+        "build": {
+          "title": "You're in",
+          "body": "You join a team and get a task straight away. We train you as we go — everyone started somewhere."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Quick answers",
+      "heading": "What people ask",
+      "items": {
+        "experience": {
+          "question": "Do I need to know anything about rockets?",
+          "answer": "No. Most of us started without. You don't need CAD, soldering or programming to apply — you need to want to learn them."
+        },
+        "study": {
+          "question": "Do I have to study at HVL?",
+          "answer": "No. We're based at HVL, but we take in students from both HVL and UiB, from any field of study."
+        },
+        "time": {
+          "question": "How much time does it take?",
+          "answer": "It varies by team and by season. Some weeks it's one evening; ahead of a launch it's more. Tell us what capacity you have and we'll work it out."
+        },
+        "year": {
+          "question": "Can I apply mid-semester?",
+          "answer": "Send the application whenever. The main intake is at the start of each semester, but we bring people in on a rolling basis when we have room."
+        }
+      }
+    },
+    "closing": {
+      "heading": "Ready? It takes two minutes.",
+      "body": "Send the form and you'll hear from us.",
+      "action": "Apply here"
+    }
+  },
   "footer": {
     "tagline": "The student rocketry association at Western Norway University of Applied Sciences.",
     "contact": "Contact",

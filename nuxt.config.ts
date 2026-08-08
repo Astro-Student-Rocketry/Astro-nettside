@@ -12,6 +12,19 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
   ],
 
+  app: {
+    head: {
+      // Favicons live in public/ and are cropped from the rocket in the ASTRO
+      // logo (see the comment in public/favicon.svg). The tile is opaque brand
+      // blue, so the mark stays legible on both light and dark browser chrome.
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico', sizes: '32x32' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '180x180' },
+      ],
+    },
+  },
+
   // Allow logical grouping (e.g. components/layout/) while still referencing
   // components by filename (<AppNav />, not <LayoutAppNav />).
   components: [{ path: '~/components', pathPrefix: false }],

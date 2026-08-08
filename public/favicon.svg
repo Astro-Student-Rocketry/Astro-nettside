@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ASTRO HVL favicon: the rocket mark from the logo on a solid brand tile.
+     Opaque background so it stays legible on light and dark browser chrome.
+     Generated from public/images/General/AstroHVL_svart.svg. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>ASTRO HVL</title>
+  <clipPath id="body">
+    <!-- Body + fins, with a notch cutting the two thin trail lines that would
+         otherwise end in mid-air behind the fins. One polygon, so no seams. -->
+    <polygon points="1492,705 1492,885 1000,885 1000,832 1090,832 1090,762 1000,762 1000,705"/>
+  </clipPath>
+  <rect width="512" height="512" fill="#21607B"/>
+  <g transform="translate(256 256) rotate(-45) scale(0.9) translate(-1246.0 -795.0)">
+    <g clip-path="url(#body)" fill="#FFFFFF">
+      <path d="M1471.79,766.77c-91.61-24.16-289.55-15.38-289.55-15.38-31.26-41.39-102.95-47.29-144.7-46.93-18.98.16-31.78,1.62-31.78,1.62-11.29,1.13,45.87,4.91,74.19,36.31,5.83,6.47,19.43,18.79,17.39,19.69l-29.1,1.35s-.09.09-.14.13l-634.96,17.3c-1.87.02-3.31.71-4.09,1.82-.78,1.11-.78,2.49,0,3.6s2.24,1.71,4.08,1.52l627.26-18.17c2.54-.25-4.35,1.57-6.69,8.62-.99,2.97-1.58,6.31-1.76,9.71-.24,4.68.32,9.47,1.76,13.52,2.98,8.41,8.88,9.29,7.3,9.53l-632.27-12.4c-1.87.02-3.76.5-4.54,1.62s-.78,2.49,0,3.6,2.23,1.71,4.07,1.52l646.49,12.15.07-.15c-.14-.09-.26-.18-.4-.27,7.36.46,12.77.19,19.94.37-16.27,46.24-97.18,51.79-89.08,54.26,32.87,10.02,133.45,8.93,182.98-49.81,89.29.99,192.1-4.39,254.3-16.91,8.73-1.76,92.35-21.56,29.23-38.21Z"/>
+    </g>
+  </g>
+</svg>
