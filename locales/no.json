@@ -274,6 +274,14 @@
       }
     }
   },
+  "launch": {
+    "eyebrow": "Fra felt",
+    "heading": "Oppskytinger",
+    "lead": "Rapporter fra oppskytingene våre: hva vi bygde, hvordan det gikk, og hva vi tar med oss videre. Nyeste først.",
+    "readMore": "Les rapporten",
+    "backToList": "Alle oppskytinger",
+    "empty": "Ingen rapporter publisert ennå. Den første kommer så snart vi har vært i felt."
+  },
   "join": {
     "eyebrow": "Opptak",
     "heading": "Bli med i ASTRO",

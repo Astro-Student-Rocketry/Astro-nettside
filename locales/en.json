@@ -274,6 +274,14 @@
       }
     }
   },
+  "launch": {
+    "eyebrow": "From the field",
+    "heading": "Launches",
+    "lead": "Reports from our launches: what we built, how it went, and what we take with us into the next one. Newest first.",
+    "readMore": "Read the report",
+    "backToList": "All launches",
+    "empty": "No reports published yet. The first one lands as soon as we've been out in the field."
+  },
   "join": {
     "eyebrow": "Intake",
     "heading": "Join ASTRO",
