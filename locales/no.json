@@ -278,6 +278,16 @@
     "eyebrow": "Fra felt",
     "heading": "Oppskytinger",
     "lead": "Rapporter fra oppskytingene våre: hva vi bygde, hvordan det gikk, og hva vi tar med oss videre. Nyeste først.",
+    "badges": {
+      "type": {
+        "launch": "Oppskyting",
+        "motorTest": "Motortest"
+      },
+      "status": {
+        "success": "Vellykket",
+        "aborted": "Avbrutt"
+      }
+    },
     "readMore": "Les rapporten",
     "backToList": "Alle oppskytinger",
     "empty": "Ingen rapporter publisert ennå. Den første kommer så snart vi har vært i felt."
@@ -384,7 +394,7 @@
     "tagline": "Studentraketforeningen ved Høgskulen på Vestlandet.",
     "contact": "Kontakt",
     "follow": "Følg oss",
-    "email": "post{'@'}astrohvl.no",
+    "email": "Astro.rocketry{'@'}gmail.com",
     "rights": "Alle rettigheter forbeholdt."
   }
 }

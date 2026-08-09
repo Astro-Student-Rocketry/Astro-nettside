@@ -36,7 +36,9 @@ useHead({ title: () => `${t('site.name')} — ${post.value?.title ?? t('nav.laun
     </NuxtLink>
 
     <header class="mt-8">
-      <p class="font-mono text-xs uppercase tracking-[0.18em] text-brand-blueDark">
+      <LaunchBadges :type="post.type" :status="post.status" />
+
+      <p class="mt-4 font-mono text-xs uppercase tracking-[0.18em] text-brand-blueDark">
         <time :datetime="post.date">{{ formatDate(post.date) }}</time>
         <span v-if="post.location"> · {{ post.location }}</span>
       </p>

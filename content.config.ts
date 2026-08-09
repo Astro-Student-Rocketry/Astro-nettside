@@ -15,6 +15,10 @@ const launchSchema = z.object({
   coverAlt: z.string().optional(),
   // One or two sentences, shown on the /launch listing.
   summary: z.string().optional(),
+  // What the entry is and how it went — rendered as badges on the listing and
+  // the post. Both default to a successful launch when left out.
+  type: z.enum(['launch', 'motor-test']).optional(),
+  status: z.enum(['success', 'aborted']).optional(),
 })
 
 // One collection per language. Filenames are shared between the two

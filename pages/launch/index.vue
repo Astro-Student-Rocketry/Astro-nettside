@@ -46,7 +46,9 @@ useHead({ title: () => `${t('site.name')} — ${t('nav.launch')}` })
             />
           </div>
 
-          <p class="mt-5 font-mono text-xs uppercase tracking-[0.18em] text-brand-blueDark">
+          <LaunchBadges class="mt-5" :type="post.type" :status="post.status" />
+
+          <p class="mt-3 font-mono text-xs uppercase tracking-[0.18em] text-brand-blueDark">
             <time :datetime="post.date">{{ formatDate(post.date) }}</time>
             <span v-if="post.location"> · {{ post.location }}</span>
           </p>

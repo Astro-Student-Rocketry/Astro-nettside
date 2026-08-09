@@ -3,12 +3,10 @@
 // funnels to an external Google Form (no backend, per CLAUDE.md).
 const { t } = useI18n()
 
-// ─────────────────────────────────────────────────────────────────────────────
-// PLACEHOLDER — replace with the real ASTRO application form URL.
-// Paste the link from Google Forms → Send → the link (🔗) tab.
-// This is the only place the URL appears; both buttons on the page use it.
-// ─────────────────────────────────────────────────────────────────────────────
-const GOOGLE_FORM_URL = 'https://forms.gle/REPLACE-ME-WITH-ASTRO-FORM-LINK'
+// The ASTRO application form. Both buttons on the page use this constant, so
+// this is the only line to change if the form is replaced.
+const GOOGLE_FORM_URL =
+  'https://docs.google.com/forms/d/e/1FAIpQLScda1_m2oPeNVI3V9zSKmm0AQULhQ2lt0UPjBQ5CP4c768pEw/viewform'
 
 useHead({ title: () => `${t('site.name')} — ${t('nav.join')}` })
 

@@ -46,6 +46,8 @@ GitHub, and Cloudflare rebuilds.
    title: "Helios 1"
    date: "2026-05-17"
    location: "Bergen"
+   type: launch
+   status: success
    cover: /images/launch/helios-1.jpg
    coverAlt: "Helios 1 leaving the rail"
    summary: "One or two sentences, shown on the /launch listing."
@@ -57,6 +59,17 @@ GitHub, and Cloudflare rebuilds.
    `title` and `date` are required; the rest are optional. **Keep the quotes
    around the date** — without them the build fails. Write the date as
    `"YYYY-MM-DD"`; the site formats it per language.
+
+   `type` and `status` control the badges shown on the listing and the post:
+
+   | Field | Values | If left out |
+   |-------|--------|-------------|
+   | `type` | `launch`, `motor-test` | treated as `launch` |
+   | `status` | `success`, `aborted` | no status badge is shown |
+
+   Leave `status` out for a flight that hasn't happened yet — the post then
+   carries no outcome badge rather than claiming success. Anything other than
+   the listed values fails the build.
 
 4. **Write the body** in markdown: `##` headings, `**bold**`, bullet lists,
    links, and images as `![Alt text](/images/launch/whatever.jpg)`.

@@ -278,6 +278,16 @@
     "eyebrow": "From the field",
     "heading": "Launches",
     "lead": "Reports from our launches: what we built, how it went, and what we take with us into the next one. Newest first.",
+    "badges": {
+      "type": {
+        "launch": "Launch",
+        "motorTest": "Motor test"
+      },
+      "status": {
+        "success": "Success",
+        "aborted": "Aborted"
+      }
+    },
     "readMore": "Read the report",
     "backToList": "All launches",
     "empty": "No reports published yet. The first one lands as soon as we've been out in the field."
@@ -384,7 +394,7 @@
     "tagline": "The student rocketry association at Western Norway University of Applied Sciences.",
     "contact": "Contact",
     "follow": "Follow us",
-    "email": "post{'@'}astrohvl.no",
+    "email": "Astro.rocketry{'@'}gmail.com",
     "rights": "All rights reserved."
   }
 }
