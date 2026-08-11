@@ -218,15 +218,14 @@
     "heading": "Partnere og sponsorer",
     "lead": "Raketter er dyre. Det vi får til, får vi til fordi bedrifter, fagmiljø og leverandører stiller opp med penger, utstyr, verksted og kompetanse.",
     "visit": "Besøk nettsiden til {name}",
-    "visitShort": "Besøk nettsiden",
     "groups": {
       "sponsors": {
         "title": "Sponsorer",
         "body": "Bedrifter som støtter ASTRO økonomisk eller med materiell."
       },
       "academic": {
-        "title": "Akademiske partnere",
-        "body": "Fagmiljø, studieprogram og studentnettverk vi samarbeider med."
+        "title": "Fagmiljø og nettverk",
+        "body": "Studieprogram, fagmiljø og nettverk vi er en del av og samarbeider med."
       },
       "industry": {
         "title": "Industripartnere",
@@ -238,41 +237,7 @@
       "body": "Vil bedriften din nå studenter innen ingeniørfag, og støtte oppbyggingen av rakettmiljøet på Vestlandet? Ta kontakt, så sender vi over en partnerpakke.",
       "action": "Ta kontakt"
     },
-    "items": {
-      "sponsor1": {
-        "blurb": "Hovedsponsor. Kort beskrivelse av hva de bidrar med."
-      },
-      "sponsor2": {
-        "blurb": "Støtter prosjektet med midler til motorutvikling."
-      },
-      "sponsor3": {
-        "blurb": "Bidrar med materiell og utstyr til verkstedet."
-      },
-      "sponsor4": {
-        "blurb": "Støtter oppskytingskampanjene våre."
-      },
-      "academic1": {
-        "blurb": "Fagmiljø som veileder og stiller lab til rådighet."
-      },
-      "academic2": {
-        "blurb": "Studieprogram vi rekrutterer fra og samarbeider med."
-      },
-      "academic3": {
-        "blurb": "Nettverk for studentraketter i Norge."
-      },
-      "industry1": {
-        "blurb": "Leverandør av komponenter og materialer."
-      },
-      "industry2": {
-        "blurb": "Hjelper oss med maskinering og produksjon."
-      },
-      "industry3": {
-        "blurb": "Teknisk rådgivning på elektronikk og telemetri."
-      },
-      "industry4": {
-        "blurb": "Bidrar med test- og måleutstyr."
-      }
-    }
+    "count": "{count} organisasjoner stiller opp"
   },
   "launch": {
     "eyebrow": "Fra felt",

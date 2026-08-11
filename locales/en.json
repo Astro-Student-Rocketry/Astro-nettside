@@ -218,15 +218,14 @@
     "heading": "Partners and sponsors",
     "lead": "Rockets are expensive. What we manage to build, we build because companies, academic groups and suppliers back us with funding, equipment, workshop access and expertise.",
     "visit": "Visit the {name} website",
-    "visitShort": "Visit website",
     "groups": {
       "sponsors": {
         "title": "Sponsors",
         "body": "Companies supporting ASTRO financially or in kind."
       },
       "academic": {
-        "title": "Academic partners",
-        "body": "Research groups, study programmes and student networks we work with."
+        "title": "Academic and network",
+        "body": "Study programmes, research groups and networks we are part of and work with."
       },
       "industry": {
         "title": "Industry partners",
@@ -238,41 +237,7 @@
       "body": "Want to reach engineering students and help build the rocketry scene in Western Norway? Get in touch and we will send over a partnership package.",
       "action": "Get in touch"
     },
-    "items": {
-      "sponsor1": {
-        "blurb": "Main sponsor. Short description of what they contribute."
-      },
-      "sponsor2": {
-        "blurb": "Supports the project with funding for motor development."
-      },
-      "sponsor3": {
-        "blurb": "Contributes materials and equipment for the workshop."
-      },
-      "sponsor4": {
-        "blurb": "Supports our launch campaigns."
-      },
-      "academic1": {
-        "blurb": "Academic group providing supervision and lab access."
-      },
-      "academic2": {
-        "blurb": "Study programme we recruit from and collaborate with."
-      },
-      "academic3": {
-        "blurb": "Network for student rocketry in Norway."
-      },
-      "industry1": {
-        "blurb": "Supplier of components and materials."
-      },
-      "industry2": {
-        "blurb": "Helps us with machining and manufacturing."
-      },
-      "industry3": {
-        "blurb": "Technical advice on electronics and telemetry."
-      },
-      "industry4": {
-        "blurb": "Contributes test and measurement equipment."
-      }
-    }
+    "count": "{count} organisations backing us"
   },
   "launch": {
     "eyebrow": "From the field",
