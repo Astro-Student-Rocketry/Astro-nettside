@@ -5,15 +5,46 @@
 const { t } = useI18n()
 const localePath = useLocalePath()
 
-// Poster frame — also the still fallback wherever the video can't play.
-const poster = '/images/home/IMG_9051.JPG'
-
 const video = ref<HTMLVideoElement | null>(null)
+
 onMounted(() => {
-  // Respect reduced-motion: hold the poster frame instead of looping footage.
+  const el = video.value
+  if (!el) return
+
+  // Respect reduced-motion: show the first frame as a still, never the loop.
+  // Pausing only sticks once a frame exists, so wait for the data to land.
   if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) {
-    video.value?.pause()
+    const freeze = () => el.pause()
+    el.addEventListener('loadeddata', freeze)
+    freeze()
+    onBeforeUnmount(() => el.removeEventListener('loadeddata', freeze))
+    return
   }
+
+  // Vue can apply `muted` after the element is created, which makes some
+  // browsers reject autoplay and leave the poster up for good. Set it on the
+  // element and drive playback ourselves, retrying on the events that mean
+  // "we're allowed / ready now".
+  el.muted = true
+  const play = () => {
+    el.play().catch(() => {})
+  }
+  play()
+
+  const retryOn = ['loadeddata', 'canplay'] as const
+  retryOn.forEach((event) => el.addEventListener(event, play))
+  const onVisible = () => {
+    if (!document.hidden) play()
+  }
+  document.addEventListener('visibilitychange', onVisible)
+  // Last resort: a gesture always unlocks autoplay-blocked playback.
+  window.addEventListener('pointerdown', play, { once: true })
+
+  onBeforeUnmount(() => {
+    retryOn.forEach((event) => el.removeEventListener(event, play))
+    document.removeEventListener('visibilitychange', onVisible)
+    window.removeEventListener('pointerdown', play)
+  })
 })
 
 const facts = [
@@ -27,11 +58,12 @@ const facts = [
   <section
     class="relative isolate flex min-h-svh flex-col overflow-hidden bg-brand-ink"
   >
-    <!-- Background: motor-trim footage, with a photo poster as fallback. -->
+    <!-- Background: motor-trim footage. No poster on purpose — a still frame
+         would sit here whenever the video is slow or blocked, so the section's
+         own dark ink background carries the gap instead. -->
     <video
       ref="video"
       class="absolute inset-0 -z-20 h-full w-full object-cover"
-      :poster="poster"
       autoplay
       muted
       loop
