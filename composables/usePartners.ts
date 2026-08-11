@@ -107,7 +107,7 @@ const partners: Partner[] = [
   {
     id: "space-162",
     name: "Space 162",
-    url: null,
+    url: "https://space162.xyz",
     logo: "/images/partners/space-162.svg",
     group: "academic",
     fit: "square",
