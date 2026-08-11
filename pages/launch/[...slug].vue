@@ -64,9 +64,11 @@ useHead({ title: () => `${t('site.name')} — ${post.value?.title ?? t('nav.laun
     </div>
 
     <!-- Markdown body. Styled with child selectors since @tailwindcss/typography
-         isn't part of the stack — keep this list in sync with what posts use. -->
+         isn't part of the stack — keep this list in sync with what posts use.
+         Images cap at the column width but are never stretched past their own
+         pixel size — upscaling a small source just makes it look blurry. -->
     <div
-      class="mt-12 leading-relaxed text-brand-slate/85 [&_a]:font-medium [&_a]:text-brand-blueDark [&_a]:underline [&_blockquote]:my-6 [&_blockquote]:border-l-2 [&_blockquote]:border-brand-blue [&_blockquote]:pl-5 [&_blockquote]:text-brand-slate/70 [&_h2]:mt-12 [&_h2]:font-display [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-brand-black [&_h3]:mt-8 [&_h3]:font-display [&_h3]:text-xl [&_h3]:font-bold [&_h3]:text-brand-blueDark [&_img]:my-8 [&_img]:w-full [&_img]:rounded-lg [&_li]:mt-2 [&_ol]:mt-4 [&_ol]:list-decimal [&_ol]:pl-6 [&_p]:mt-5 [&_strong]:font-semibold [&_strong]:text-brand-black [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-6"
+      class="mt-12 leading-relaxed text-brand-slate/85 [&_a]:font-medium [&_a]:text-brand-blueDark [&_a]:underline [&_blockquote]:my-6 [&_blockquote]:border-l-2 [&_blockquote]:border-brand-blue [&_blockquote]:pl-5 [&_blockquote]:text-brand-slate/70 [&_h2]:mt-12 [&_h2]:font-display [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-brand-black [&_h3]:mt-8 [&_h3]:font-display [&_h3]:text-xl [&_h3]:font-bold [&_h3]:text-brand-blueDark [&_img]:mx-auto [&_img]:my-8 [&_img]:block [&_img]:h-auto [&_img]:max-w-full [&_img]:rounded-lg [&_li]:mt-2 [&_ol]:mt-4 [&_ol]:list-decimal [&_ol]:pl-6 [&_p]:mt-5 [&_strong]:font-semibold [&_strong]:text-brand-black [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-6"
     >
       <ContentRenderer :value="post" />
     </div>
