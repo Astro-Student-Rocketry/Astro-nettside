@@ -146,11 +146,15 @@
       },
       "structures": {
         "title": "Struktur",
-        "body": "Kropp, finner og gjenvinning. Det som må tåle både oppskyting og landing."
+        "body": "Kropp, finner og komposittproduksjon. Det som må tåle kreftene under oppskyting."
       },
       "avionics": {
         "title": "Avionikk",
         "body": "Flycomputer, sensorer, telemetri og koden som styrer flyturen."
+      },
+      "recovery": {
+        "title": "Recovery",
+        "body": "Fallskjermsystem, utløsermekanikk og en trygg vei ned igjen."
       }
     },
     "cta": {
@@ -195,10 +199,6 @@
         "role": "Strukturingeniør",
         "blurb": "Jobber med kropp, finner og komposittproduksjon."
       },
-      "structuresRecovery": {
-        "role": "Gjenvinningsansvarlig",
-        "blurb": "Fallskjermsystem og trygg landing."
-      },
       "avionicsLead": {
         "role": "Teamleder avionikk",
         "blurb": "Leder utviklingen av flycomputeren."
@@ -210,6 +210,18 @@
       "avionicsHardware": {
         "role": "Elektronikkutvikler",
         "blurb": "Designer kretskort, sensorer og telemetri."
+      },
+      "recoveryLead": {
+        "role": "Teamleder recovery",
+        "blurb": "Har ansvar for at raketten kommer trygt ned igjen."
+      },
+      "recoveryParachute": {
+        "role": "Fallskjermingeniør",
+        "blurb": "Designer og pakker fallskjermene vi flyr med."
+      },
+      "recoveryDeployment": {
+        "role": "Utløseransvarlig",
+        "blurb": "Utløsermekanikk, ladninger og testing av utløsing."
       }
     }
   },

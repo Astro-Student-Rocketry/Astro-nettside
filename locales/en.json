@@ -146,11 +146,15 @@
       },
       "structures": {
         "title": "Structures",
-        "body": "Airframe, fins and recovery. The parts that have to survive both launch and landing."
+        "body": "Airframe, fins and composite manufacturing. The parts that take the loads at launch."
       },
       "avionics": {
         "title": "Avionics",
         "body": "Flight computer, sensors, telemetry and the code that runs the flight."
+      },
+      "recovery": {
+        "title": "Recovery",
+        "body": "Parachute systems, deployment mechanics and a safe way back down."
       }
     },
     "cta": {
@@ -195,10 +199,6 @@
         "role": "Structures engineer",
         "blurb": "Works on airframe, fins and composite manufacturing."
       },
-      "structuresRecovery": {
-        "role": "Recovery engineer",
-        "blurb": "Parachute system and getting the rocket down safely."
-      },
       "avionicsLead": {
         "role": "Avionics lead",
         "blurb": "Leads development of the flight computer."
@@ -210,6 +210,18 @@
       "avionicsHardware": {
         "role": "Electronics engineer",
         "blurb": "Designs boards, sensors and telemetry."
+      },
+      "recoveryLead": {
+        "role": "Recovery lead",
+        "blurb": "Owns getting the rocket back on the ground in one piece."
+      },
+      "recoveryParachute": {
+        "role": "Parachute engineer",
+        "blurb": "Designs and packs the parachutes we fly."
+      },
+      "recoveryDeployment": {
+        "role": "Deployment engineer",
+        "blurb": "Deployment mechanics, charges and ejection testing."
       }
     }
   },

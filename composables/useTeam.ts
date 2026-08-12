@@ -14,7 +14,7 @@
  * `public/images/team/` (portrait crop, ~800×1000, a few hundred KB).
  * Members render in the order listed here, within their group.
  */
-export type TeamGroup = 'board' | 'propulsion' | 'structures' | 'avionics'
+export type TeamGroup = 'board' | 'propulsion' | 'structures' | 'avionics' | 'recovery'
 
 export interface TeamMember {
   /** Stable key — also the i18n lookup: `team.members.<id>.role` / `.blurb`. */
@@ -27,7 +27,7 @@ export interface TeamMember {
 }
 
 /** Section order on the page. Labels live at `team.groups.<group>.*`. */
-export const teamGroups: TeamGroup[] = ['board', 'propulsion', 'structures', 'avionics']
+export const teamGroups: TeamGroup[] = ['board', 'propulsion', 'structures', 'avionics', 'recovery']
 
 const PLACEHOLDER_PORTRAIT = '/images/team/placeholder.jpg'
 
@@ -46,12 +46,16 @@ const members: TeamMember[] = [
   // Structures
   { id: 'structuresLead', name: 'Fornavn Etternavn', image: PLACEHOLDER_PORTRAIT, group: 'structures' },
   { id: 'structuresAirframe', name: 'Fornavn Etternavn', image: PLACEHOLDER_PORTRAIT, group: 'structures' },
-  { id: 'structuresRecovery', name: 'Fornavn Etternavn', image: PLACEHOLDER_PORTRAIT, group: 'structures' },
 
   // Avionics
   { id: 'avionicsLead', name: 'Fornavn Etternavn', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
   { id: 'avionicsSoftware', name: 'Fornavn Etternavn', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
   { id: 'avionicsHardware', name: 'Fornavn Etternavn', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
+
+  // Recovery
+  { id: 'recoveryLead', name: 'Fornavn Etternavn', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
+  { id: 'recoveryParachute', name: 'Fornavn Etternavn', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
+  { id: 'recoveryDeployment', name: 'Fornavn Etternavn', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
 ]
 
 export const useTeam = () => ({
