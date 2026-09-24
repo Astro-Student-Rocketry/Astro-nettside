@@ -144,7 +144,7 @@
         "title": "Propulsion",
         "body": "Motors, propellant and static fires — everything that pushes the rocket upward."
       },
-      "structures": {
+      "airframe": {
         "title": "Structures",
         "body": "Airframe, fins and composite manufacturing. The parts that take the loads at launch."
       },
@@ -155,6 +155,14 @@
       "recovery": {
         "title": "Recovery",
         "body": "Parachute systems, deployment mechanics and a safe way back down."
+      },
+      "web": {
+        "title": "Web",
+        "body": "Website and data handling."
+      },
+      "finance": {
+        "title": "Finance",
+        "body": "Works with sponsors and manages financial operations."
       }
     },
     "cta": {
@@ -163,21 +171,21 @@
       "action": "Join ASTRO"
     },
     "members": {
-      "president": {
-        "role": "President",
+      "ceo": {
+        "role": "CEO",
         "blurb": "Holds the whole thing together and represents ASTRO externally."
       },
-      "vicePresident": {
-        "role": "Vice president",
+      "coo": {
+        "role": "COO",
         "blurb": "Follows up the projects and steps in wherever needed."
       },
-      "treasurer": {
-        "role": "Treasurer",
+      "cfo": {
+        "role": "CFO",
         "blurb": "Budgets, purchasing and funding applications."
       },
-      "communications": {
-        "role": "Communications",
-        "blurb": "Social media, the website and partner contact."
+      "boardMember": {
+        "role": "Board Member",
+        "blurb": "Supervises the activities of the organization and helps decisionmaking."
       },
       "propulsionLead": {
         "role": "Propulsion lead",
@@ -191,11 +199,11 @@
         "role": "Test engineer",
         "blurb": "Plans and runs the static fires on the ground."
       },
-      "structuresLead": {
+      "airframeLead": {
         "role": "Structures lead",
         "blurb": "Owns the airframe and the loads it has to take."
       },
-      "structuresAirframe": {
+      "airframe": {
         "role": "Structures engineer",
         "blurb": "Works on airframe, fins and composite manufacturing."
       },
@@ -222,6 +230,22 @@
       "recoveryDeployment": {
         "role": "Deployment engineer",
         "blurb": "Deployment mechanics, charges and ejection testing."
+      },
+      "webLead": {
+        "role": "Web Lead",
+        "blurb": "Orchestrates website development and web solutions."
+      },
+      "webDeveloper": {
+        "role": "Web Developer",
+        "blurb": "Implements solutions and helps decisionmaking for web solutions."
+      },
+      "financeLead": {
+        "role": "Teamleder finans",
+        "blurb": "Budgets, purchasing and funding applications."
+      },
+      "finance": {
+        "role": "Finans",
+        "blurb": "Budgets, purchasing and funding applications."
       }
     }
   },
