@@ -41,8 +41,8 @@ const members: TeamMember[] = [
 
   // Propulsion
   { id: 'propulsionLead', name: 'Halvor', image: PLACEHOLDER_PORTRAIT, group: 'propulsion' },
-  { id: 'propulsionLead', name: 'Mathias', image: PLACEHOLDER_PORTRAIT, group: 'propulsion' },
-  { id: 'propulsionLead', name: 'Odin', image: PLACEHOLDER_PORTRAIT, group: 'propulsion' },
+  { id: 'propulsionTest', name: 'Mathias', image: PLACEHOLDER_PORTRAIT, group: 'propulsion' },
+  { id: 'propulsionTest', name: 'Odin', image: PLACEHOLDER_PORTRAIT, group: 'propulsion' },
   { id: 'propulsionTest', name: 'Jeremy Roult', image: PLACEHOLDER_PORTRAIT, group: 'propulsion' },
   { id: 'propulsionTest', name: 'Vladyslav', image: PLACEHOLDER_PORTRAIT, group: 'propulsion' },
   { id: 'propulsionTest', name: 'Mathias Brekke', image: PLACEHOLDER_PORTRAIT, group: 'propulsion' },
@@ -54,7 +54,7 @@ const members: TeamMember[] = [
 
   // Airfrane
   { id: 'airframeLead', name: 'Isak', image: PLACEHOLDER_PORTRAIT, group: 'airframe' },
-  { id: 'airframeLead', name: 'Hans', image: PLACEHOLDER_PORTRAIT, group: 'airframe' },
+  { id: 'airframe', name: 'Hans', image: PLACEHOLDER_PORTRAIT, group: 'airframe' },
   { id: 'airframe', name: 'Trygve Haugland', image: PLACEHOLDER_PORTRAIT, group: 'airframe' },
   { id: 'airframe', name: 'Martin Aasenhus', image: PLACEHOLDER_PORTRAIT, group: 'airframe' },
   { id: 'airframe', name: 'Herman Brenne', image: PLACEHOLDER_PORTRAIT, group: 'airframe' },
@@ -67,8 +67,8 @@ const members: TeamMember[] = [
 
   // Avionics
   { id: 'avionicsLead', name: 'Magnus', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
-  { id: 'avionicsLead', name: 'Herman', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
-  { id: 'avionicsLead', name: 'Kristian', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
+  { id: 'avionicsSoftware', name: 'Herman', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
+  { id: 'avionicsSoftware', name: 'Kristian', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
   { id: 'avionicsSoftware', name: 'Svale', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
   { id: 'avionicsSoftware', name: 'Jon Noe Høye', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
   { id: 'avionicsHardware', name: 'Daniel Amøy', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
@@ -77,9 +77,9 @@ const members: TeamMember[] = [
   { id: 'avionicsHardware', name: 'Emil Kapstad', image: PLACEHOLDER_PORTRAIT, group: 'avionics' },
 
   // Recovery
-  { id: 'recoveryLead', name: 'Jacom', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
-  { id: 'recoveryLead', name: 'Trond Erik', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
-  { id: 'recoveryLead', name: 'Elias', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
+  { id: 'recoveryLead', name: 'Jacob', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
+  { id: 'recoveryParachute', name: 'Trond Erik', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
+  { id: 'recoveryParachute', name: 'Elias', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
   { id: 'recoveryParachute', name: 'Sondre Solbakken', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
   { id: 'recoveryDeployment', name: 'Magnus Mongstad', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
   { id: 'recoveryDeployment', name: 'Surafi', image: PLACEHOLDER_PORTRAIT, group: 'recovery' },
@@ -94,8 +94,8 @@ const members: TeamMember[] = [
 
   // Finance
   { id: 'financeLead', name: 'John', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
-  { id: 'financeLead', name: 'Elisa', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
-  { id: 'financeLead', name: 'Elias', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
+  { id: 'finance', name: 'Elisa', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
+  { id: 'finance', name: 'Elias', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
   { id: 'finance', name: 'Kristian Buvik', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
   { id: 'finance', name: 'Fredrik Helland', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
   { id: 'finance', name: 'Karen Plukkerud', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
