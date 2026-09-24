@@ -14,7 +14,7 @@
  * `public/images/team/` (portrait crop, ~800×1000, a few hundred KB).
  * Members render in the order listed here, within their group.
  */
-export type TeamGroup = 'board' | 'propulsion' | 'avionics' | 'recovery' | 'web' | 'airframe' | 'finance'
+export type TeamGroup = 'board' | 'propulsion' | 'avionics' | 'recovery' | 'web' | 'airframe' | 'economy'
 
 export interface TeamMember {
   /** Stable key — also the i18n lookup: `team.members.<id>.role` / `.blurb`. */
@@ -27,7 +27,7 @@ export interface TeamMember {
 }
 
 /** Section order on the page. Labels live at `team.groups.<group>.*`. */
-export const teamGroups: TeamGroup[] = ['board', 'propulsion', 'avionics', 'recovery', 'web', 'airframe', 'finance']
+export const teamGroups: TeamGroup[] = ['board', 'propulsion', 'avionics', 'recovery', 'web', 'airframe', 'economy']
 
 const PLACEHOLDER_PORTRAIT = '/images/team/placeholder.jpg'
 
@@ -93,14 +93,14 @@ const members: TeamMember[] = [
   { id: 'webDeveloper', name: 'Adrian', image: PLACEHOLDER_PORTRAIT, group: 'web' },
 
   // Finance
-  { id: 'financeLead', name: 'John', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
-  { id: 'finance', name: 'Elisa', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
-  { id: 'finance', name: 'Elias', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
-  { id: 'finance', name: 'Kristian Buvik', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
-  { id: 'finance', name: 'Fredrik Helland', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
-  { id: 'finance', name: 'Karen Plukkerud', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
-  { id: 'finance', name: 'Marthe Osen', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
-  { id: 'finance', name: 'Maria Landro', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
+  { id: 'economyLead', name: 'John', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
+  { id: 'economy', name: 'Elisa', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
+  { id: 'economy', name: 'Elias', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
+  { id: 'economy', name: 'Kristian Buvik', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
+  { id: 'economy', name: 'Fredrik Helland', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
+  { id: 'economy', name: 'Karen Plukkerud', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
+  { id: 'economy', name: 'Marthe Osen', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
+  { id: 'economy', name: 'Maria Landro', image: PLACEHOLDER_PORTRAIT, group: 'finance' },
 ]
 
 export const useTeam = () => ({

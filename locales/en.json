@@ -160,9 +160,9 @@
         "title": "Web",
         "body": "Website and data handling."
       },
-      "finance": {
-        "title": "Finance",
-        "body": "Works with sponsors and manages financial operations."
+      "economy": {
+        "title": "Economy and Operations",
+        "body": "Works with sponsors and manages economic operations."
       }
     },
     "cta": {
@@ -239,12 +239,12 @@
         "role": "Web Developer",
         "blurb": "Implements solutions and helps decisionmaking for web solutions."
       },
-      "financeLead": {
-        "role": "Teamleder finans",
+      "economyLead": {
+        "role": "Economy and Operations Lead",
         "blurb": "Budgets, purchasing and funding applications."
       },
-      "finance": {
-        "role": "Finans",
+      "economy": {
+        "role": "Finance Manager",
         "blurb": "Budgets, purchasing and funding applications."
       }
     }

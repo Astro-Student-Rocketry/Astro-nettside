@@ -160,9 +160,9 @@
         "title": "Web",
         "body": "Nettside og data behandling."
       },
-      "finance": {
-        "title": "Finans",
-        "body": "Jobber med sponsorer og håndterer finansielle operasjoner."
+      "economy": {
+        "title": "Økonomi og drift",
+        "body": "Jobber med sponsorer og håndterer økonomiske operasjoner."
       }
     },
     "cta": {
@@ -239,12 +239,12 @@
         "role": "Web Utvikler",
         "blurb": "Implementerer løsninger og bidrar til beslutningstaking knyttet til nettløsninger."
       },
-      "financeLead": {
-        "role": "Teamleder finans",
+      "economyLead": {
+        "role": "Teamleder økonomi og drift",
         "blurb": "Budsjett, innkjøp og søknader om støtte."
       },
-      "finance": {
-        "role": "Finans",
+      "economy": {
+        "role": "Økonomiansvarlig",
         "blurb": "Budsjett, innkjøp og søknader om støtte."
       }
     }
