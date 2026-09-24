@@ -78,6 +78,14 @@ const partners: Partner[] = [
     group: "sponsors",
     fit: "square",
   },
+  {
+    id: "widenorth",
+    name: "WideNorth",
+    url: "https://www.widenorth.com",
+    logo: "/images/partners/wn-logo.svg",
+    group: "sponsors",
+    fit: "wide",
+  },
 
   // Academic and network — study programmes, research groups, student networks.
   {
