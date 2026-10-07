@@ -155,6 +155,30 @@ const partners: Partner[] = [
     group: "industry",
     fit: "square",
   },
+  {
+    id: "easy-composites",
+    name: "Easy Composites",
+    url: "https://www.easycomposites.co.uk/",
+    logo: "/images/partners/easy-composites.png",
+    group: "industry",
+    fit: "square",
+  },
+  {
+    id: "vilvite",
+    name: "VilVite",
+    url: "https://www.vilvite.no/en",
+    logo: "/images/partners/vil-vite.png",
+    group: "academic",
+    fit: "square",
+  },
+  {
+    id: "agenda-vestlandet",
+    name: "Agenda Vestlandet",
+    url: "https://www.sparebankennorge.no/agendavestlandet",
+    logo: "/images/partners/agenda-vestlandet.png",
+    group: "sponsors",
+    fit: "square",
+  },
 ];
 
 export const usePartners = () => ({
