@@ -179,6 +179,14 @@ const partners: Partner[] = [
     group: "sponsors",
     fit: "square",
   },
+  {
+    id: "north-sea-electronics",
+    name: "North Sea Electronics",
+    url: "https://nse.no",
+    logo: "northseaelectronics.jpg",
+    group: "sponsors",
+    fit: "square",
+  },
 ];
 
 export const usePartners = () => ({
