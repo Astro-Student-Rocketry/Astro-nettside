@@ -183,7 +183,7 @@ const partners: Partner[] = [
     id: "north-sea-electronics",
     name: "North Sea Electronics",
     url: "https://nse.no",
-    logo: "northseaelectronics.png",
+    logo: "/images/partners/northseaelectronics.png",
     group: "sponsors",
     fit: "square",
   },
